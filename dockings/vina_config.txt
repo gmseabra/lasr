@@ -1,0 +1,21 @@
+# -- Input Molecules --
+receptor = aligned_XXXX_cluster.cTARGET.pdbqt
+ligand   = LIGAND.pdbqt
+
+# -- Grid Definition
+center_x = 10.561
+center_y = 3.433
+center_z = 20.931
+
+size_x = 18.75
+size_y = 24.375
+size_z = 18.75
+
+# -- Docking Parameters
+exhaustiveness = 128
+num_modes = 9
+energy_range = 5
+
+# -- Files
+out = OUT_TARGET_LIGAND_RUN_ex-128.pdbqt
+log = LOG_TARGET_LIGAND_RUN_ex-128.log

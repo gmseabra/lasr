@@ -1,0 +1,9 @@
+Quick minimization of solvent only
+&cntrl 
+  imin=1, maxcyc=100,    ! Run 100 minimization steps: 10 SD + 90 CG
+  ntpr=25,               ! Print status after every 25 steps
+  ntr=1,                 ! Turn on cartesinl restraints
+  restraint_wt=100.0,    ! Force constant for restraint, kcal/(mol.A)^2
+  restraintmask=':1-163' ! Restrained residues: the whole protein
+&end 
+

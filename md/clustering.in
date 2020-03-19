@@ -1,0 +1,17 @@
+# Clustering the MD trajectories
+# Using only the production phase.
+
+parm ../../lasr.parm7
+# trajin ../../heat.nc
+# trajin ../../equil.nc
+trajin ../../prod_00.nc
+trajin ../../prod_01.nc
+
+autoimage
+strip :WAT
+
+cluster hieragglo clusters 15 average-linkage \
+        rms :31,33-35,42,43,45,47,51,55,56,59,60,65,68-71,74,75,83,87,88,96,97,100,105,106,110,112,114,120-122,124 \
+        summary cluster_summary.dat \
+        cpopvtime cpop_v_time.dat normframe \
+        repout apo_cluster repfmt pdb

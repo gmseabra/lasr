@@ -1,0 +1,169 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     DDA
+MODEL        1
+HETATM    1  C1  DDA   900      -4.390   0.645  -4.981  1.00  0.00           C  
+HETATM    2  C2  DDA   900      -4.570   1.850  -4.897  1.00  0.00           C  
+HETATM    3  C3  DDA   900      -4.796   3.300  -4.762  1.00  0.00           C  
+HETATM    4  C4  DDA   900      -5.557   3.706  -3.487  1.00  0.00           C  
+HETATM    5  C5  DDA   900      -4.810   3.380  -2.181  1.00  0.00           C  
+HETATM    6  C6  DDA   900      -5.627   3.730  -0.922  1.00  0.00           C  
+HETATM    7  C7  DDA   900      -4.902   3.432   0.411  1.00  0.00           C  
+HETATM    8  C8  DDA   900      -4.611   1.931   0.568  1.00  0.00           C  
+HETATM    9  N1  DDA   900      -3.332   1.551   0.474  1.00  0.00           N  
+HETATM   10  C9  DDA   900      -2.901   0.160   0.512  1.00  0.00           C  
+HETATM   11  C10 DDA   900      -1.378   0.046   0.343  1.00  0.00           C  
+HETATM   12  C11 DDA   900      -0.905  -1.416   0.342  1.00  0.00           C  
+HETATM   13  C12 DDA   900       0.617  -1.554   0.169  1.00  0.00           C  
+HETATM   14  O1  DDA   900      -5.526   1.133   0.751  1.00  0.00           O  
+HETATM   15  C13 DDA   900      -5.724   3.938   1.608  1.00  0.00           C  
+HETATM   16  C14 DDA   900       1.145  -3.004   0.347  1.00  0.00           C  
+HETATM   17  N2  DDA   900       2.616  -3.091   0.230  1.00  0.00           N  
+HETATM   18  C15 DDA   900       2.986  -3.806  -0.870  1.00  0.00           C  
+HETATM   19  C16 DDA   900       1.790  -4.340  -1.478  1.00  0.00           C  
+HETATM   20  C17 DDA   900       0.744  -3.906  -0.777  1.00  0.00           C  
+HETATM   21  O2  DDA   900      -0.583  -4.228  -0.913  1.00  0.00           O  
+HETATM   22  C18 DDA   900      -0.905  -5.162  -1.933  1.00  0.00           C  
+HETATM   23  O3  DDA   900       4.123  -4.029  -1.285  1.00  0.00           O  
+HETATM   24  C19 DDA   900       3.425  -2.603   1.212  1.00  0.00           C  
+HETATM   25  C20 DDA   900       4.971  -2.559   1.092  1.00  0.00           C  
+HETATM   26  C21 DDA   900       5.599  -1.349   1.827  1.00  0.00           C  
+HETATM   27  C22 DDA   900       5.216   0.027   1.245  1.00  0.00           C  
+HETATM   28  O4  DDA   900       2.935  -2.165   2.256  1.00  0.00           O  
+HETATM   29  C23 DDA   900       5.569  -3.868   1.641  1.00  0.00           C  
+HETATM   30  C24 DDA   900       5.977   1.199   1.889  1.00  0.00           C  
+HETATM   31  C25 DDA   900       5.615   1.432   3.365  1.00  0.00           C  
+HETATM   32  C26 DDA   900       6.298   2.596   3.954  1.00  0.00           C  
+HETATM   33  C27 DDA   900       6.877   3.552   4.445  1.00  0.00           C  
+HETATM   34  H1  DDA   900      -4.243  -0.409  -5.044  1.00  0.00           H  
+HETATM   35  H2  DDA   900      -5.351   3.624  -5.642  1.00  0.00           H  
+HETATM   36  H3  DDA   900      -3.825   3.795  -4.800  1.00  0.00           H  
+HETATM   37  H4  DDA   900      -6.532   3.215  -3.482  1.00  0.00           H  
+HETATM   38  H5  DDA   900      -5.762   4.777  -3.523  1.00  0.00           H  
+HETATM   39  H6  DDA   900      -3.860   3.915  -2.164  1.00  0.00           H  
+HETATM   40  H7  DDA   900      -4.565   2.318  -2.166  1.00  0.00           H  
+HETATM   41  H8  DDA   900      -6.573   3.185  -0.945  1.00  0.00           H  
+HETATM   42  H9  DDA   900      -5.889   4.788  -0.956  1.00  0.00           H  
+HETATM   43  H10 DDA   900      -3.955   3.972   0.414  1.00  0.00           H  
+HETATM   44  H11 DDA   900      -2.633   2.261   0.324  1.00  0.00           H  
+HETATM   45  H12 DDA   900      -3.408  -0.391  -0.283  1.00  0.00           H  
+HETATM   46  H13 DDA   900      -3.213  -0.290   1.456  1.00  0.00           H  
+HETATM   47  H14 DDA   900      -0.881   0.585   1.150  1.00  0.00           H  
+HETATM   48  H15 DDA   900      -1.074   0.525  -0.588  1.00  0.00           H  
+HETATM   49  H16 DDA   900      -1.418  -1.950  -0.458  1.00  0.00           H  
+HETATM   50  H17 DDA   900      -1.207  -1.893   1.274  1.00  0.00           H  
+HETATM   51  H18 DDA   900       1.096  -0.907   0.905  1.00  0.00           H  
+HETATM   52  H19 DDA   900       0.912  -1.166  -0.808  1.00  0.00           H  
+HETATM   53  H20 DDA   900      -5.232   3.704   2.552  1.00  0.00           H  
+HETATM   54  H21 DDA   900      -5.860   5.018   1.566  1.00  0.00           H  
+HETATM   55  H22 DDA   900      -6.713   3.479   1.632  1.00  0.00           H  
+HETATM   56  H23 DDA   900       0.812  -3.433   1.295  1.00  0.00           H  
+HETATM   57  H24 DDA   900       1.782  -5.016  -2.318  1.00  0.00           H  
+HETATM   58  H25 DDA   900      -1.982  -5.331  -1.942  1.00  0.00           H  
+HETATM   59  H26 DDA   900      -0.619  -4.793  -2.918  1.00  0.00           H  
+HETATM   60  H27 DDA   900      -0.421  -6.124  -1.755  1.00  0.00           H  
+HETATM   61  H28 DDA   900       5.265  -2.442   0.051  1.00  0.00           H  
+HETATM   62  H29 DDA   900       6.685  -1.444   1.792  1.00  0.00           H  
+HETATM   63  H30 DDA   900       5.334  -1.391   2.883  1.00  0.00           H  
+HETATM   64  H31 DDA   900       4.142   0.194   1.347  1.00  0.00           H  
+HETATM   65  H32 DDA   900       5.421   0.028   0.174  1.00  0.00           H  
+HETATM   66  H33 DDA   900       5.173  -4.741   1.123  1.00  0.00           H  
+HETATM   67  H34 DDA   900       6.652  -3.885   1.518  1.00  0.00           H  
+HETATM   68  H35 DDA   900       5.352  -3.987   2.703  1.00  0.00           H  
+HETATM   69  H36 DDA   900       5.758   2.106   1.323  1.00  0.00           H  
+HETATM   70  H37 DDA   900       7.052   1.036   1.791  1.00  0.00           H  
+HETATM   71  H38 DDA   900       5.877   0.565   3.972  1.00  0.00           H  
+HETATM   72  H39 DDA   900       4.541   1.587   3.474  1.00  0.00           H  
+HETATM   73  H40 DDA   900       7.382   4.386   4.878  1.00  0.00           H  
+CONECT    1    2   34
+CONECT    1    2
+CONECT    1    2
+CONECT    2    1    3
+CONECT    2    1
+CONECT    2    1
+CONECT    3    2    4   35   36
+CONECT    4    3    5   37   38
+CONECT    5    4    6   39   40
+CONECT    6    5    7   41   42
+CONECT    7    6    8   15   43
+CONECT    8    7    9   14
+CONECT    8   14
+CONECT    9    8   10   44
+CONECT   10    9   11   45   46
+CONECT   11   10   12   47   48
+CONECT   12   11   13   49   50
+CONECT   13   12   16   51   52
+CONECT   14    8
+CONECT   14    8
+CONECT   15    7   53   54   55
+CONECT   16   13   20   17   56
+CONECT   17   16   18   24
+CONECT   18   17   19   23
+CONECT   18   23
+CONECT   19   18   20   57
+CONECT   19   20
+CONECT   20   16   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   22   21   58   59   60
+CONECT   23   18
+CONECT   23   18
+CONECT   24   17   25   28
+CONECT   24   28
+CONECT   25   24   26   29   61
+CONECT   26   25   27   62   63
+CONECT   27   26   30   64   65
+CONECT   28   24
+CONECT   28   24
+CONECT   29   25   66   67   68
+CONECT   30   27   31   69   70
+CONECT   31   30   32   71   72
+CONECT   32   31   33
+CONECT   32   33
+CONECT   32   33
+CONECT   33   32   73
+CONECT   33   32
+CONECT   33   32
+CONECT   34    1
+CONECT   35    3
+CONECT   36    3
+CONECT   37    4
+CONECT   38    4
+CONECT   39    5
+CONECT   40    5
+CONECT   41    6
+CONECT   42    6
+CONECT   43    7
+CONECT   44    9
+CONECT   45   10
+CONECT   46   10
+CONECT   47   11
+CONECT   48   11
+CONECT   49   12
+CONECT   50   12
+CONECT   51   13
+CONECT   52   13
+CONECT   53   15
+CONECT   54   15
+CONECT   55   15
+CONECT   56   16
+CONECT   57   19
+CONECT   58   22
+CONECT   59   22
+CONECT   60   22
+CONECT   61   25
+CONECT   62   26
+CONECT   63   26
+CONECT   64   27
+CONECT   65   27
+CONECT   66   29
+CONECT   67   29
+CONECT   68   29
+CONECT   69   30
+CONECT   70   30
+CONECT   71   31
+CONECT   72   31
+CONECT   73   33
+ENDMDL
+END   

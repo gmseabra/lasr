@@ -1,0 +1,47 @@
+Constant volume heating to 310.0K (37oC)
+&cntrl
+  imin=0,            ! (d) Run MD
+  irest=0,           ! (d) This is NOT a restart. Velocities are ignores and t -> 0.
+  ntx=1,             ! (d) Read coordinates but not velocities
+  ntxo=2,            ! (d) write final coordinates in  NetCDF format
+  ioutfm=1           ! (d) Write trajectories in NetCDF format
+  nstlim=500000,     ! 500,000 mdsteps
+  dt=0.002,          ! Timestep: 2fs. Total time = 1 ns.
+  ntwx=10000,        ! Frequency of writing to `mdcrd` file 
+  ntpr=10000,        ! Frequecy of printing to `mdout` file
+  ntwr=10000,        ! Frequency of writing a `restart` file
+  ntp=0,             ! NO pressure control
+  ntb=1,             ! Constant volume
+  cut=10.0,          ! Nonbonded cutoff
+  ntc=2,             ! Use SHAKE
+  ntf=2,             ! Do not calculate terms involing hydrogens
+  tempi=0.0,         ! initial temperature
+  temp0=310.0,       ! Target (final) temperature
+  nmropt=1,          ! NMR restraints will be used (to contorl temperature)
+  ntt=3,             ! Langevin thermostat
+  gamma_ln=2.0,      ! Collision frequency 
+/
+
+Temperature control in 2 steps.
+First, ramp up T for 300K steps (0.6ns)
+&wt
+  type='TEMP0',       ! Temperature control
+  istep1=0,          ! Initial step of T ramp
+  istep2=300000,     ! Final step of T ramp (300K steps ramp)
+  value1=0.0,        ! Initial temperature
+  value2=310.0,      ! Final temperature
+/
+
+Now, keep at final temperature for anotherr 200K steps (0.4ns)
+&wt
+  type='TEMP0',      ! Temperature control
+  istep1=300000,     ! Initial step of fixed T
+  istep2=500000,     ! Final step of  fixed T (200K steps at this temp)
+  value1=310.0,      ! Initial temperature
+  value2=310.0,      ! Final temperature (same as final)
+/
+
+&wt
+  type='END',        ! No more restraints to be read.
+/
+

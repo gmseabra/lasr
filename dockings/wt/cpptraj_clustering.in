@@ -1,0 +1,11 @@
+parm LIGAND.pdb
+
+trajin filtered_LIGAND.pdb
+
+# Cluster the molecules without moving
+cluster hieragglo epsilon 3.0 average-linkage \
+	rms nofit \
+	summary cluster.LIGAND.summary.dat \ 
+	singlerepout cluster.LIGAND.pdb singlerepfmt pdb \
+	clusterout cluster.LIGAND.all clusterfmt pdb
+
